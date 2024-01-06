@@ -23,6 +23,7 @@
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-svelte": "^2.35.1",
+    "mdsvex": "^0.11.0",
     "postcss": "^8.4.33",
     "prettier": "^3.1.1",
     "prettier-plugin-svelte": "^3.1.2",
@@ -40,6 +41,7 @@
     "@fontsource-variable/jura": "^5.0.18",
     "@fontsource-variable/nunito": "^5.0.17",
     "@fontsource-variable/source-code-pro": "^5.0.17",
-    "lucide-svelte": "^0.306.0"
+    "lucide-svelte": "^0.306.0",
+    "shiki": "^0.14.7"
   }
 }
