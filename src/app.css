@@ -7,7 +7,15 @@
 @tailwind utilities;
 
 @layer base {
-    body {
-        @apply flex flex-col min-h-screen;
-    }
+  body {
+    @apply flex flex-col min-h-screen;
+  }
+
+  a {
+    @apply text-black transition-colors;
+  }
+
+  a:hover {
+    @apply text-fuchsia-600;
+  }
 }
