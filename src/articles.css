@@ -36,11 +36,11 @@
   }
 
   #article-content pre {
-    @apply mb-2 p-4 border-4 border-violet-800 rounded-md;
+    @apply mb-2 p-4 border-4 border-violet-800 rounded-md overflow-x-scroll;
   }
 
   #article-content pre * {
-    @apply font-sourceCodePro;
+    @apply font-sourceCodePro text-sm;
   }
 
   #article-content div[data-remark-code-title='true'] + pre {

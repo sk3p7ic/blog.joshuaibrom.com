@@ -10,7 +10,7 @@
   <meta property="og:title" content={data.meta.title} />
 </svelte:head>
 
-<article class="px-4 py-2 flex flex-col gap-4">
+<article class="px-4 py-2 mx-auto max-w-prose flex flex-col gap-4">
   <div class="border-b border-black">
     <h1 class="font-bitter font-bold text-5xl">{data.meta.title}</h1>
     <p>
