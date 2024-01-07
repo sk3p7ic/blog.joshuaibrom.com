@@ -1,12 +1,12 @@
 ---
-title: "Into My Final Undergraduate Semester: Reflections and Aspirations"
+title: 'Into My Final Undergraduate Semester: Reflections and Aspirations'
 description: "As my resume shows, I've been in college for a while. I'd like to touch on the journey that I've taken and consider the future that I'm working towards."
-date: "2023-12-31"
+date: '2023-12-31'
 tags:
-    - "personal"
-    - "reflection"
-    - "self-improvement"
-    - "college"
+  - 'personal'
+  - 'reflection'
+  - 'self-improvement'
+  - 'college'
 published: true
 ---
 
