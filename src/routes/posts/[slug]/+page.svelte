@@ -9,7 +9,7 @@
   <meta property="og:title" content={data.meta.title} />
 </svelte:head>
 
-<article>
+<article class="px-4 py-2">
   <div>
     <h1>{data.meta.title}</h1>
   </div>
@@ -18,7 +18,7 @@
       <span>&num;{category}</span>
     {/each}
   </div>
-  <div>
+  <div id="article-content">
     <svelte:component this={data.content} />
   </div>
 </article>
