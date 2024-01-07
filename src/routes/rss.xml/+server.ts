@@ -1,6 +1,6 @@
-import {siteConfig} from '$lib/siteConfig';
-import {type Post} from '$lib/postTypes';
-import {type RequestHandler} from '@sveltejs/kit';
+import { siteConfig } from '$lib/siteConfig';
+import { type Post } from '$lib/postTypes';
+import { type RequestHandler } from '@sveltejs/kit';
 
 export const GET: RequestHandler = async ({ fetch }) => {
   const posts: Post[] = await (await fetch('api/posts')).json();
@@ -13,8 +13,8 @@ export const GET: RequestHandler = async ({ fetch }) => {
 				<link>https://blog.joshuaibrom.com</link>
 				<atom:link href="https://blog.joshuaibrom.com/rss.xml" rel="self" type="application/rss+xml"/>
 				${posts
-					.map(
-						(post) => `
+          .map(
+            (post) => `
 						<item>
 							<title>${post.title}</title>
 							<description>${post.description}</description>
@@ -22,11 +22,11 @@ export const GET: RequestHandler = async ({ fetch }) => {
 							<guid isPermaLink="true">https://blog.joshuaibrom.com${post.href}</guid>
 							<pubDate>${new Date(post.date).toUTCString()}</pubDate>
 						</item>
-					`
-					)
-					.join('')}
+					`,
+          )
+          .join('')}
 			</channel>
 		</rss>
   `.trim();
-  return new Response(xml, {headers});
-}
+  return new Response(xml, { headers });
+};
