@@ -1,5 +1,5 @@
 <script lang="ts">
-  import {siteConfig} from '$lib/siteConfig';
+  import { siteConfig } from '$lib/siteConfig';
   import { Github, Computer, Linkedin } from 'lucide-svelte';
 </script>
 

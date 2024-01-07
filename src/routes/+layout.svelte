@@ -1,5 +1,5 @@
 <script lang="ts">
-  import {siteConfig} from '$lib/siteConfig';
+  import { siteConfig } from '$lib/siteConfig';
   import Header from './header.svelte';
   import Footer from './footer.svelte';
   import '../app.css';

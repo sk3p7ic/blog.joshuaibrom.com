@@ -28,6 +28,7 @@ fn main() {
 This is a paragraph with some math in it: $x^2 + y^2 = z^2$.
 
 And this is a block:
+
 $$
 f(x) = x^2
 $$
@@ -36,8 +37,7 @@ And these are some basic Markdown elements:
 
 - This is a list
 - This element is **bold**
-- This element is *italic*
+- This element is _italic_
 - This element is `code`
 - This element is ~~strikethrough~~
 - This element is a [link](https://google.com)
-

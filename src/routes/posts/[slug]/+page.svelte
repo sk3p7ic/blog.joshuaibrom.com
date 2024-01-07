@@ -1,5 +1,5 @@
 <script lang="ts">
-  import {siteConfig} from '$lib/siteConfig';
+  import { siteConfig } from '$lib/siteConfig';
   export let data;
 </script>
 

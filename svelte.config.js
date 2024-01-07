@@ -12,11 +12,11 @@ const mdsvexOptions = {
   remarkPlugins: [remarkMath],
   highlight: {
     highlighter: async (code, lang = 'text') => {
-      const highlighter = await shiki.getHighlighter({theme: 'slack-ochin'});
-      const html = escapeSvelte(highlighter.codeToHtml(code, {lang}));
+      const highlighter = await shiki.getHighlighter({ theme: 'slack-ochin' });
+      const html = escapeSvelte(highlighter.codeToHtml(code, { lang }));
       return `{@html \`${html}\` }`;
-    }
-  }
+    },
+  },
 };
 
 /** @type {import('@sveltejs/kit').Config} */
