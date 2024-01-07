@@ -14,13 +14,12 @@
   <div class="border-b border-black">
     <h1 class="font-bitter font-bold text-5xl">{data.meta.title}</h1>
     <p class="mt-2">
-      Published {siteConfig.dateFormatter(data.meta.date, 'medium', 'en')} by Joshua
-      Ibrom
+      Published {siteConfig.dateFormatter(data.meta.date, 'medium', 'en')} by {siteConfig.author}.
     </p>
   </div>
   <div class="flex flex-row gap-2 flex-wrap">
     {#each data.meta.tags as tn}
-      <Tag tagName={`#${tn}`} />
+      <Tag tagName={`${tn}`} />
     {/each}
   </div>
   <div id="article-content">

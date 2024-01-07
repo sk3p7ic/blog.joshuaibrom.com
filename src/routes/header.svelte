@@ -4,7 +4,7 @@
   import type { NavItemType } from '$lib/navbarTypes';
 
   const navItems: NavItemType[] = [
-    { name: 'All Posts', href: '/posts' },
+    //{ name: 'All Posts', href: '/posts' },
     { name: 'My Site', href: 'https://joshuaibrom.com', openInNewTab: true },
     { name: 'RSS Feed', href: '/rss.xml', icon: 'rss' },
   ];
