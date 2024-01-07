@@ -12,7 +12,7 @@ published: true
 
 This is some test post to ensure that things are working as they _should_.
 
-```rs
+```rs title="greetings.rs"
 fn getGreeting(name: &str) -> String {
     format!("Hello there, {}!", name);
 }
@@ -21,6 +21,10 @@ fn main() {
     let name = "Josh";
     println!("{}", getGreeting(&name));
 }
+```
+
+```ts
+const greet = (name: string) => console.log(`Hello, ${name}!`);
 ```
 
 ## Another Test

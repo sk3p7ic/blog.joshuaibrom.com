@@ -1,5 +1,6 @@
 <script lang="ts">
   import { siteConfig } from '$lib/siteConfig';
+  import Tag from '../../../components/posts/tag.svelte';
   export let data;
 </script>
 
@@ -11,11 +12,11 @@
 
 <article class="px-4 py-2">
   <div>
-    <h1>{data.meta.title}</h1>
+    <h1 class="font-bitter font-bold text-5xl">{data.meta.title}</h1>
   </div>
-  <div>
-    {#each data.meta.tags as category}
-      <span>&num;{category}</span>
+  <div class="flex flex-row gap-2 flex-wrap">
+    {#each data.meta.tags as tn}
+      <Tag tagName={`#${tn}`} />
     {/each}
   </div>
   <div id="article-content">

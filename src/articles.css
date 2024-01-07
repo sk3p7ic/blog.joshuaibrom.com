@@ -1,7 +1,41 @@
 @tailwind base;
 
 @layer base {
+  #article-content h1,
+  #article-content h2,
+  #article-content h3,
+  #article-content h4 {
+    @apply font-bitter font-semibold;
+  }
+  #article-content h1 {
+    @apply text-4xl;
+  }
+  #article-content h2 {
+    @apply text-3xl;
+  }
+  #article-content h3 {
+    @apply text-2xl;
+  }
+  #article-content h4 {
+    @apply text-xl;
+  }
+  #article-content p {
+    @apply mb-2;
+  }
+
+  #article-content div[data-remark-code-title='true'] {
+    @apply p-2 bg-violet-800 text-white font-sourceCodePro rounded-t-md;
+  }
+
   #article-content pre {
-    @apply p-4 border-4 border-black rounded-md;
+    @apply mb-2 p-4 border-4 border-violet-800 rounded-md;
+  }
+
+  #article-content pre * {
+    @apply font-sourceCodePro;
+  }
+
+  #article-content div[data-remark-code-title='true'] + pre {
+    @apply rounded-t-none;
   }
 }
