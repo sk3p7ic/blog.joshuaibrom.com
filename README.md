@@ -1,3 +1,7 @@
+Huge credit to [this article](https://joyofcode.xyz/sveltekit-markdown-blog)
+which I used as a guide to create this blog, mainly in the way of rendering
+markdown using `mdsvex` and `shiki` for syntax highlighting.
+
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
