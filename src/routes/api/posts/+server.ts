@@ -16,9 +16,10 @@ async function getAllPosts(): Promise<Post[]> {
   for (const path in paths) {
     const file = paths[path];
     const slug = path.split('/').at(-1)?.replace('.md', '');
+    const href = `/posts/${slug}`;
     if (file && typeof file === 'object' && 'metadata' in file && slug) {
-      const metadata = file.metadata as Omit<Post, 'slug'>;
-      const post = { ...metadata, slug } satisfies Post;
+      const metadata = file.metadata as Omit<Post, 'slug' | 'href'>;
+      const post = { ...metadata, slug, href } satisfies Post;
       if (post.published) posts.push(post);
     }
   }

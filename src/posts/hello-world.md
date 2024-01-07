@@ -8,9 +8,9 @@ tags:
 published: true
 ---
 
-## Testing...1, 2, 3...1, 2, 3
+## Test
 
-This is some test post to ensure that things are working as they should.
+This is some test post to ensure that things are working as they _should_.
 
 ```rs
 fn getGreeting(name: &str) -> String {
@@ -22,3 +22,21 @@ fn main() {
     println!("{}", getGreeting(&name));
 }
 ```
+
+## Another Test
+
+This is a paragraph with some math in it: \\(x^2 + y^2 = z^2\\).
+
+This is a paragraph with some math in it: \\[x^2 + y^2 = z^2\\].
+
+This is a paragraph with some math in it: $$x^2 + y^2 = z^2$$.
+
+And these are some basic Markdown elements:
+
+- This is a list
+- This element is **bold**
+- This element is *italic*
+- This element is `code`
+- This element is ~~strikethrough~~
+- This element is a [link](https://google.com)
+

@@ -10,7 +10,7 @@
   </div>
   <ul>
     {#each data.posts as post}
-      <li><a href={post.slug}>{post.title}</a></li>
+      <li><a href={post.href}>{post.title}</a></li>
     {/each}
   </ul>
 </div>
