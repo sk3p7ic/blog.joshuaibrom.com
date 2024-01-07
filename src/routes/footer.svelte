@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { siteConfig } from '$lib/siteConfig';
   import { Github, Computer, Linkedin } from 'lucide-svelte';
 </script>
 
@@ -6,7 +7,7 @@
   class="px-4 py-4 flex flex-row items-center justify-center font-bitter text-lg bg-black text-white border-t-2 border-fuchsia-600"
 >
   <div class="flex flex-col gap-1">
-    <span>Joshua Ibrom (sk3p7ic), 2024.</span>
+    <span>{siteConfig.author}, {new Date().getFullYear()}.</span>
     <div class="flex flex-row justify-center divide-x">
       <a
         href="https://github.com/sk3p7ic/blog.joshuaibrom.com/"
