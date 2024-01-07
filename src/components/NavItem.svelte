@@ -1,12 +1,12 @@
 <script lang="ts">
-  import {Rss} from 'lucide-svelte';
-  import type { NavItemType } from "$lib/navbarTypes";
+  import { Rss } from 'lucide-svelte';
+  import type { NavItemType } from '$lib/navbarTypes';
 
   export let item: NavItemType;
   let icon: typeof Rss | undefined = undefined;
   if (item.icon !== undefined) {
     switch (item.icon) {
-      case "rss":
+      case 'rss':
         icon = Rss;
     }
   }

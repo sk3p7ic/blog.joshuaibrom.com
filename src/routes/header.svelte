@@ -1,12 +1,12 @@
 <script lang="ts">
-  import {siteConfig} from '$lib/siteConfig';
+  import { siteConfig } from '$lib/siteConfig';
   import NavMenu from '../components/NavMenu.svelte';
   import type { NavItemType } from '$lib/navbarTypes';
 
   const navItems: NavItemType[] = [
-    {name: 'All Posts', href: '/posts'},
-    {name: 'My Site', href: 'https://joshuaibrom.com', openInNewTab: true},
-    {name: 'RSS Feed', href: '/feed', icon: "rss"}
+    { name: 'All Posts', href: '/posts' },
+    { name: 'My Site', href: 'https://joshuaibrom.com', openInNewTab: true },
+    { name: 'RSS Feed', href: '/feed', icon: 'rss' },
   ];
 </script>
 

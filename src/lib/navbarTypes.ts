@@ -1,6 +1,6 @@
 export type NavItemType = {
   name: string;
   href: string;
-  icon?: "rss";
+  icon?: 'rss';
   openInNewTab?: boolean;
-}
+};

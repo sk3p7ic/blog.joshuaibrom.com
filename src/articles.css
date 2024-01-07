@@ -36,7 +36,9 @@
     @apply list-decimal ms-6;
   }
 
-  #article-content ul, #article-content ol, #article-content li {
+  #article-content ul,
+  #article-content ol,
+  #article-content li {
     @apply font-nunito text-lg text-justify;
   }
 
