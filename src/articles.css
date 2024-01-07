@@ -1,0 +1,7 @@
+@tailwind base;
+
+@layer base {
+  #article-content pre {
+    @apply p-4 border-4 border-black rounded-md;
+  }
+}

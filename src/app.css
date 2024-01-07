@@ -1,0 +1,22 @@
+@import '@fontsource-variable/bitter';
+@import '@fontsource-variable/jura';
+@import '@fontsource-variable/nunito';
+@import '@fontsource-variable/source-code-pro';
+@import './articles.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply flex flex-col min-h-screen;
+  }
+
+  a {
+    @apply text-black transition-colors;
+  }
+
+  a:hover {
+    @apply text-fuchsia-600;
+  }
+}
