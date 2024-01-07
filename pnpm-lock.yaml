@@ -23,6 +23,9 @@ dependencies:
   rehype-katex:
     specifier: ^7.0.0
     version: 7.0.0
+  remark-code-title:
+    specifier: ^0.2.5
+    version: 0.2.5
   shiki:
     specifier: ^0.14.7
     version: 0.14.7
@@ -2485,6 +2488,12 @@ packages:
       vfile: 6.0.1
     dev: false
 
+  /remark-code-title@0.2.5:
+    resolution: {integrity: sha512-6tIhdZdECMM0EQk3eDFxUQn/97VKKmo7JkCwfg/mkJaZZBwH+cbP0UDRslOqqzLcueakPZ8q7Gtj5KtGB/jufw==}
+    dependencies:
+      unist-util-visit: 4.1.2
+    dev: false
+
   /remark-math@3.0.0:
     resolution: {integrity: sha512-1ptXVKQaxexoS1pywvbtoRofKenkulyWa7trXUh2LR5NCdzmqfUlM/aA8qyke7h63BGMFXVjPNjOZmD8oWkKDg==}
     dev: true
@@ -2984,7 +2993,6 @@ packages:
     resolution: {integrity: sha512-u9njyyfEh43npf1M+yGKDGVPbY/JWEemg5nH05ncKPfi+kBbKBJoTdsogMu33uhytuLlv9y0O7GH7fEdwLdLQw==}
     dependencies:
       '@types/unist': 2.0.10
-    dev: true
 
   /unist-util-is@6.0.0:
     resolution: {integrity: sha512-2qCTHimwdxLfz+YzdGfkqNlH0tLi9xjTnHddPmJwtIG9MGsdbutfTc4P+haPD7l7Cjxf/WZj+we5qfVPvvxfYw==}
@@ -3016,7 +3024,6 @@ packages:
     dependencies:
       '@types/unist': 2.0.10
       unist-util-is: 5.2.1
-    dev: true
 
   /unist-util-visit-parents@6.0.1:
     resolution: {integrity: sha512-L/PqWzfTP9lzzEa6CKs0k2nARxTdZduw3zyh8d2NVBnsyvHjSX4TWse388YrrQKbvI8w20fGjGlhgT96WwKykw==}
@@ -3031,7 +3038,6 @@ packages:
       '@types/unist': 2.0.10
       unist-util-is: 5.2.1
       unist-util-visit-parents: 5.1.3
-    dev: true
 
   /unist-util-visit@5.0.0:
     resolution: {integrity: sha512-MR04uvD+07cwl/yhVuVWAtw+3GOR/knlL55Nd/wAdblk27GCVt3lqpTivy/tkJcZoNPzTwS1Y+KMojlLDhoTzg==}
