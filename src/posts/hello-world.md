@@ -25,11 +25,12 @@ fn main() {
 
 ## Another Test
 
-This is a paragraph with some math in it: \\(x^2 + y^2 = z^2\\).
+This is a paragraph with some math in it: $x^2 + y^2 = z^2$.
 
-This is a paragraph with some math in it: \\[x^2 + y^2 = z^2\\].
-
-This is a paragraph with some math in it: $$x^2 + y^2 = z^2$$.
+And this is a block:
+$$
+f(x) = x^2
+$$
 
 And these are some basic Markdown elements:
 
