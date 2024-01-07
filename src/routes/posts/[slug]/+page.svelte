@@ -10,9 +10,13 @@
   <meta property="og:title" content={data.meta.title} />
 </svelte:head>
 
-<article class="px-4 py-2">
-  <div>
+<article class="px-4 py-2 flex flex-col gap-4">
+  <div class="border-b border-black">
     <h1 class="font-bitter font-bold text-5xl">{data.meta.title}</h1>
+    <p>
+      Published {siteConfig.dateFormatter(data.meta.date, 'medium', 'en')} by Joshua
+      Ibrom
+    </p>
   </div>
   <div class="flex flex-row gap-2 flex-wrap">
     {#each data.meta.tags as tn}

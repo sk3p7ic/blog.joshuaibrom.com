@@ -20,11 +20,19 @@
     @apply text-xl;
   }
   #article-content p {
-    @apply mb-2;
+    @apply mb-2 text-justify;
+  }
+
+  #article-content ul {
+    @apply list-disc ms-6;
+  }
+
+  #article-content img {
+    @apply rounded-md;
   }
 
   #article-content div[data-remark-code-title='true'] {
-    @apply p-2 bg-violet-800 text-white font-sourceCodePro rounded-t-md;
+    @apply p-2 bg-violet-800 text-white font-sourceCodePro font-bold rounded-t-md;
   }
 
   #article-content pre {
