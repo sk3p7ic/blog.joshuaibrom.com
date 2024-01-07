@@ -1,10 +1,11 @@
-export type Categories = string;
+export type Tags = string;
 
 export type Post = {
   title: string;
   slug: string;
   description: string;
+  featuredImage?: string;
   date: string;
-  categories: Categories[];
+  tags: Tags[];
   published: boolean;
 };

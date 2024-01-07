@@ -2,7 +2,7 @@
 title: 'Hello world!'
 description: 'A test post to make sure everything is working.'
 date: '2024-01-06'
-categories:
+tags:
   - Markdown
   - Math
 published: true
