@@ -32,9 +32,9 @@
     </div>
     <div class="p-4 bg-emerald-300 border-2 border-black rounded-lg">
       <h2 class="font-bitter text-4xl font-bold">Recent Posts</h2>
-      <ul class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
+      <ul class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-2">
         {#each data.posts as post}
-          <li><PostCard post={post} /></li>
+          <li class="h-full"><PostCard post={post} /></li>
         {/each}
       </ul>
     </div>

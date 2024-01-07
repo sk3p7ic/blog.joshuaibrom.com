@@ -13,7 +13,7 @@
 <article class="px-4 py-2 mx-auto max-w-prose flex flex-col gap-4">
   <div class="border-b border-black">
     <h1 class="font-bitter font-bold text-5xl">{data.meta.title}</h1>
-    <p>
+    <p class="mt-2">
       Published {siteConfig.dateFormatter(data.meta.date, 'medium', 'en')} by Joshua
       Ibrom
     </p>
