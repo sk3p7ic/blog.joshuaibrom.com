@@ -1,7 +1,7 @@
 <script lang="ts">
   import { siteConfig } from '$lib/siteConfig';
-  import Header from './header.svelte';
-  import Footer from './footer.svelte';
+  import Header from '../components/header.svelte';
+  import Footer from '../components/footer.svelte';
   import '../app.css';
 </script>
 
