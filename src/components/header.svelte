@@ -1,6 +1,6 @@
 <script lang="ts">
   import { siteConfig } from '$lib/siteConfig';
-  import NavMenu from '../components/NavMenu.svelte';
+  import NavMenu from './NavMenu.svelte';
   import type { NavItemType } from '$lib/navbarTypes';
 
   const navItems: NavItemType[] = [
