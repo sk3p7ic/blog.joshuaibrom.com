@@ -18,18 +18,21 @@
       >
         <div class="flex flex-col gap-4">
           <p>
-            I'm sk3p7ic, a senior computer science student at Texas A&amp;M
-            University - San Antonio. I'm also a student worker for my
-            university's IT department, acting as a member of their web team.
-            I'm currently looking for a full-time position as a software
-            engineer or web developer, as am I heavily considering graduate
-            school.
+            I&apos;m sk3p7ic, a graduate student and research technician at
+            Texas A&amp;M University - San Antonio currently supporting
+            University research through facilitating further collaboration among
+            faculty. I have previously researched serverless cloud computing,
+            specifically focusing on the impacts of cold starts and how those
+            might be lessened. I am currently seeking a role as a junior
+            software engineer, AI/ML engineer, or web developer.
           </p>
           <p>
-            In addition to web development, I'm also interested in systems
-            programming and compiler design. I'm a huge fan of Rust, and I enjoy
-            using it for most of my personal projects. I'm also a fan of C and
-            Zig (C++ is a no-go for me, though).
+            I enjoy working on web applications due to the variety of work that
+            web development may bring, especially in the context of full stack
+            development. In addition to web development, I am also interested in
+            systems programming and compiler design. I&apos;m a huge fan of Rust
+            and I enjoy using it for personal projects. I am also a fan of C and
+            Zig (but not C++).
           </p>
         </div>
       </div>
