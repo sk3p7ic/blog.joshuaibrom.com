@@ -61,4 +61,8 @@
   #article-content div[data-remark-code-title='true'] + pre {
     @apply rounded-t-none;
   }
+
+  #article-content blockquote {
+    @apply border-s-2 border-fuchsia-600 px-2;
+  }
 }
