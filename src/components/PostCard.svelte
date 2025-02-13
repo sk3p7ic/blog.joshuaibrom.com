@@ -7,7 +7,7 @@
 </script>
 
 <div
-  class="p-2 h-full flex flex-col gap-2 bg-white border-2 border-b-4 border-e-4 border-black rounded-md"
+  class="group p-2 h-full flex flex-col gap-2 bg-white border-2 border-b-4 border-e-4 border-black hover:scale-[101%] rounded-md transition-all"
 >
   <div class="flex flex-col">
     <h3 class="font-bitter font-semibold text-3xl">{post.title}</h3>
@@ -23,7 +23,7 @@
   <p class="text-lg text-justify">{post.description}</p>
   <a
     href={post.href}
-    class="ms-auto mt-auto flex flex-row items-center gap-1 p-1 w-fit bg-white hover:bg-violet-400 hover:text-black border-2 border-black rounded-sm hover:rounded-lg transition-all"
+    class="ms-auto mt-auto flex flex-row items-center gap-1 p-1 w-fit bg-white group-hover:bg-violet-300 group-hover:text-black scale-100 hover:scale-105 border-2 border-b-4 border-e-4 border-black rounded-md hover:rounded-lg transition-all"
     >Read post <ArrowRight size={18} /></a
   >
 </div>
